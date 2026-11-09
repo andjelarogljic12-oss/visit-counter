@@ -111,17 +111,7 @@ pytest
 - **Posle prelaska na `main` nisam videla folder `scripts`.** Naučila sam da su fajlovi
   sa feature grane u `main` tek kad se PR spoji i uradi `git pull`.
 
-## Šta bih unapredila da imam više vremena
-
-- Pokretanje aplikacije preko produkcionog servera (npr. gunicorn) umesto Flask
-  razvojnog servera.
-- Više testova (za `/visits` i `/health`, uz lažni Redis).
-- Multi-stage build i objavljivanje image-a na GitHub Container Registry.
-- Nginx kao reverse proxy ispred više instanci aplikacije.
-- Bezbednosno skeniranje image-a (Trivy) u pipeline-u.
-
 ## Korišćeni alati
 
-- Claude (AI asistent) – vodio me je korak po korak i objašnjavao šta svaka komanda
-  i linija konfiguracije radi; sve komande sam pokretala i proveravala sama.
+- Claude (AI asistent) – smernice kroz izradu i objašnjenje komandi; sve komande sam pokretala i proveravala sama.
 - Zvanična dokumentacija: Docker, Docker Compose, GitHub Actions, Flask.
